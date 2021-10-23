@@ -1,0 +1,27 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "araminian-repo-creds",
+    "namespace": "argocd",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "araminian-repo-creds",
+        "namespace": "argocd",
+        "creationTimestamp": null,
+        "labels": {
+          "argocd.argoproj.io/secret-type": "repo-creds"
+        }
+      },
+      "data": null
+    },
+    "encryptedData": {
+      "password": "AgCMIXonC0Rogx+k2rbMFs8V3z9wqV77Gd1Ie7qdfnFyokePzdkQIHx8JK2qh0Z5o8EbGHpVG50IsNp3bFoNVwnafRkwD9iUAYK/4a27Wn37LBjfKY/ySOgYKBQMD/WnHfMMTEiC+Vb8yD9j7BpwNv1PeWGsi1bbk4kMeaZnxq94cgotrHHW9bXrHjqOd68xc5bwSzIPqLdFVCCtWpYI73TWIouUXLb/gSqVr1aLbDOeugYu0buE7ulN652VsSdbMvLBOW6E/4nqeZPKvhDAqMCpNbJV+UYxaEOb/yjLS1DHHk8M4YXQkhLYF4SmWZv6DEUPx2GgzFVaMjEmr/dLv2pEXNHtb+Paw/hBhGrRDQjpS6ikpNUG2jayRYShLm0dg7KRTcEqd9XbBttyFlNOzmTqujbCG+rxftTZdmUmblHVoB17QL0Z+aHsEXnYIqRqAreF9aezUTU8/wIHqt2TeE5ylR2EU12przZKISWLKk4YrHbXKOkarjeqzXLBl0WqWgL9SJmYCWgL2kWe5I3aOBbxnvMVnWVHrEa/F8e1Ub5cWVuHG7bNNnMqQFvSHtS8/DBg/YgOj4jfrYnuubWZqPscv0qmr/sL1zNUT8ByUsiPVnmy3wb2oEnJkudGHvXtDjGUxDhxhXutNN8wFHPBxC0jC5qxd2mnMNrVcLTpwKTXObTUIawJxggxdbp0lmUGHQ5UPsKmllLjgIo=",
+      "url": "AgCqpoLi+O/2pARdY4t96L8QxlqPZxDEe2AHnjLtoA0ZuhuNFQQh9fypk7duuDHjpOQohMYa9yFpWTgTI9N2NbvKeOAHTSmUYBguV1E4yqVm+xpveY+jSHeWiBit+nFiQzZ4dNEKEcf1cSWOM8+S23/IwgFcGPfWAa5tOZKAxS2sCaWJJqDGHMdg3F4FQOSrsDec5CxUYVV6DK6xWtu9vncLf8qhrBAxnmdpTIZlfm8qfcV0umJr3A/OdHXPMRd6nGh7+OZSYd6lXxOeQZ1tpj8PJ24h7cqKIy9rR9dgjvhqYSU7OOpv1VXGCCnDINydVNPSeEwIHjRylDcDtz2NHayS5TCkm951rvNo0Tggha9X5Ilws/LeRGGiNoyi1mIbjg0GAhfj771jTFdTGg9Jd/OT2a5JkIrVYTzBNXJsScgLS/xmbeihGUI4vQ3Aqiodej0xN0i4CKChENfXMAqqgaCYxOUNqRX3AYB6FPLHiXYEgy8g+ypoGHz54DSs+9IjOw2wWy07rhOh+arH8pSBIrjNNS+r3Qmr45nIsxoXNR1yFP194SceB/jnR7ThpwUA/BF9iLORIt0/2S+qqxxOXKmj6Bo1EqH90IFSCVxtcKWfwIpFqYCqOdnOto4RjZJyluYqgCVse8WVAuhwx0f6vwSolfquc0fG5CGd4vymZZhuTc3STMQmh1P7iN6psDXHXmlycXblIwyiIsPbo87UkjIn4O+KcJDad0XkFmGA",
+      "username": "AgB6dKHtsQLiLGjX48X357grxIwo+Na8Hjt2MOk56DI5rd8JkDqCRpLf6cA+LtnVlNzp17vaDD1g4DjqBz0I08JTvquUk7Zrk7lpIzkcO1nwVQ2V+4YoBbn1VkUnta3XtGCrMdc5aL7SJpEa2P+S+/dB6JSluhbYNYmWwtX3CazxcUm4BXROeJfMWTJ6cBjdV5DSC5a1IfBzpvKEgti+IMA4KAEAjmxr5VIk424u/2xOYNTgP5RHWhMlPcKPpF6n6u2b/rTf85J0pWb+SBvVJ3xrONcptPoKOHTco8pK0ONcCbfCrblwEtDEhZxB9ScjJRLqEaIGEBVDsWW056W7zZfwnv+lp5fJtrA1ed82XPrlml674GpX4mi16gMBPYp8p8N4XPqhbtrAcuiZmRO+XAtY5jwugEIVQC6G8Jyv54+PsOTCEavzmwGl6ITtNcUSXW2ENSF9X6A4PS+Jahc18Ows2hofkyOhdj5l322RXUuxj+Cccq3eU+cRJaIit7EAy+rUzKtewBVLQGemZ9pN5HRXCHamOarrgQ8RnnDxUmU4GMPQSL6MjHueIg2Rjc47zyDvUJbPs9DzQ64sF+1tH5xUus7O0C2SWHLLO92NCTag+H7EwUjMdMgSaOCG0OLTDzWmo8telXIV98dVPfyV/EzGY4mrCPz20NWIa6uYu0VpXjDrW+E/r+RAcC1qh/M1RG6LiIIFu/g7cCAFYYXFdsyI"
+    }
+  }
+}
